@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSInteger i = 10;
+//    [NSString stringFr]
 }
 
 - (void)didReceiveMemoryWarning
