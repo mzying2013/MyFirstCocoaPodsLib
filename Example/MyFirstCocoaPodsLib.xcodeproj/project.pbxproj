@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		233EAE843BDFEF15D84EEB0A /* Pods_MyFirstCocoaPodsLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstCocoaPodsLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2706946306D67EA638D2BE42 /* Pods_MyFirstCocoaPodsLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirstCocoaPodsLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55CD5C5BB2EE75C246C17B96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55CD5C5BB2EE75C246C17B96 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MyFirstCocoaPodsLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstCocoaPodsLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76CF534F9BD35BB3C504C49E /* Pods-MyFirstCocoaPodsLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstCocoaPodsLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstCocoaPodsLib_Tests/Pods-MyFirstCocoaPodsLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		828378314679EFA4FD72AB8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		828378314679EFA4FD72AB8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2AAE0634D2138D26C29F8B6 /* Pods-MyFirstCocoaPodsLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstCocoaPodsLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstCocoaPodsLib_Tests/Pods-MyFirstCocoaPodsLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4923A1CC1A46CAF1D92C5FA /* Pods-MyFirstCocoaPodsLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstCocoaPodsLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstCocoaPodsLib_Example/Pods-MyFirstCocoaPodsLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C9DB3C7B552BAD939AAB6DF0 /* Pods-MyFirstCocoaPodsLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirstCocoaPodsLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirstCocoaPodsLib_Example/Pods-MyFirstCocoaPodsLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FB66705349619B77468CAB60 /* MyFirstCocoaPodsLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyFirstCocoaPodsLib.podspec; path = ../MyFirstCocoaPodsLib.podspec; sourceTree = "<group>"; };
+		FB66705349619B77468CAB60 /* MyFirstCocoaPodsLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyFirstCocoaPodsLib.podspec; path = ../MyFirstCocoaPodsLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = mzying2013;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = C9DB3C7B552BAD939AAB6DF0 /* Pods-MyFirstCocoaPodsLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstCocoaPodsLib/MyFirstCocoaPodsLib-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstCocoaPodsLib/MyFirstCocoaPodsLib-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = A4923A1CC1A46CAF1D92C5FA /* Pods-MyFirstCocoaPodsLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFirstCocoaPodsLib/MyFirstCocoaPodsLib-Prefix.pch";
 				INFOPLIST_FILE = "MyFirstCocoaPodsLib/MyFirstCocoaPodsLib-Info.plist";
